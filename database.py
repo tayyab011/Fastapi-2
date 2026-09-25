@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 # SQLALCHEMY_DATABASE_URI = 'sqlite:///./expenseapp.db'
 
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres.kokgddswtdllqttsgptl:fucking_Bitch321@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres'
+SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://postgres.kokgddswtdllqttsgptl:fucking_Bitch321@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
 
 # engine = create_engine(SQLALCHEMY_DATABASE_URI, connect_args={"check_same_thread": False})
 # needs for sqlite 3
